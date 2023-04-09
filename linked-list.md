@@ -5,7 +5,8 @@ A node contains two fields i.e. data stored at that particular address and the p
 The last node of the list contains pointer to the null.
 
 
-The syntax for creating a node
+The syntax for creating a node:
+
 struct Node
 {
   int Data;
