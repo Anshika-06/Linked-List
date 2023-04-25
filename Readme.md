@@ -25,3 +25,14 @@ struct node
 };  
 struct node *head, *ptr;   
 ptr = (struct node *)malloc(sizeof(struct node *));  
+
+
+
+Circular Linked List is a linked list where all nodes are connected to form a circle.
+In a circular linked list, the first node and the last node are connected to each other which forms a circle. There is no NULL at the end.
+In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We traverse the circular singly linked list until we reach the same node where we started. The circular singly linked list has no beginning or end. 
+
+
+![trial_image](https://user-images.githubusercontent.com/125429580/234337923-729e7702-7f89-4132-bf1c-22b14b78eddc.png)
+
+
